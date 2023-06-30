@@ -11,6 +11,7 @@ header{
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: -10%;
 }
 .campo{
     margin-left: 10%;
@@ -26,6 +27,7 @@ header{
     width: 35%;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 10%;
 }
 .pontos{
     display: flex;
@@ -52,4 +54,7 @@ header{
 .nome_carta_deck{
     position:absolute;
     margin-top: 5%;
+}
+.nome_carta{
+    margin-top: 15%;
 }
