@@ -8,19 +8,24 @@ header{
 }
 #jogo{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .campo{
     margin-left: 10%;
 }
 .cartas{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .cartas div{
-    margin-left: 10%;
+    display: flex;
+    width: 35%;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .pontos{
     display: flex;
@@ -34,10 +39,17 @@ header{
     margin-top: 10%;
 }
 #deck{
+    justify-content: space-around;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 50%;
 }
 #deck div{
-    margin-left: 10%;
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+
+.nome_carta_deck{
+    position:absolute;
+    margin-top: 5%;
 }
