@@ -1,0 +1,60 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#jogo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -10%;
+}
+.campo{
+    margin-left: 10%;
+}
+.cartas{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cartas div{
+    display: flex;
+    width: 35%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.pontos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#interface{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+#deck{
+    justify-content: space-around;
+    display: flex;
+    width: 50%;
+}
+#deck div{
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+
+.nome_carta_deck{
+    position:absolute;
+    margin-top: 5%;
+}
+.nome_carta{
+    margin-top: 15%;
+}
