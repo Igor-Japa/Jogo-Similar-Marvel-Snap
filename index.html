@@ -14,7 +14,7 @@
 </header>
 <main>
     <div id="jogo">
-        <div class="campo">
+        <div class="campo1" value="0">
             <div class="cartas">
                 <div class="slot_carta"></div>
                 <div class="slot_carta"></div>
@@ -23,8 +23,8 @@
             </div>
 
             <div class="pontos">
-                <div class="pontos_pc">1</div>
-                <div class="pontos_jogador">2</div>
+                <div class="pontos_pc">0</div>
+                <div class="pontos_jogador">0</div>
             </div>
 
             <div class="cartas">
@@ -35,7 +35,7 @@
             </div>
         </div>
 
-        <div class="campo">
+        <div class="campo2" value="1">
             <div class="cartas">
                 <div class="slot_carta"></div>
                 <div class="slot_carta"></div>
@@ -44,8 +44,8 @@
             </div>
 
             <div class="pontos">
-                <div class="pontos_pc">1</div>
-                <div class="pontos_jogador">2</div>
+                <div class="pontos_pc">0</div>
+                <div class="pontos_jogador">0</div>
             </div>
 
             <div class="cartas">
@@ -56,7 +56,7 @@
             </div>
         </div>
 
-        <div class="campo">
+        <div class="campo3" value="2">
             <div class="cartas">
                 <div class="slot_carta"></div>
                 <div class="slot_carta"></div>
@@ -65,9 +65,9 @@
             </div>
 
             <div class="pontos">
-                <div class="pontos_pc">1</div>
-                <div class="pontos_jogador">2</div>
-            </div>
+                <div class="pontos_pc">0</div>
+                <div class="pontos_jogador">0</div>
+            </div>  
 
             <div class="cartas">
                 <div class="slot_carta"></div>
@@ -81,12 +81,36 @@
     <div id="interface">
         <div id="turno">Turno: <span>1</span></div>
         <div id="deck">
-            <div class="slot_carta"><div class="carta" draggable="true"><div class="energia_carta">4</div><div class="poder_carta">7</div><div class="nome_carta">Feiticeira</div></div></div>
-            <div class="slot_carta"><div class="carta" draggable="true"><div class="energia_carta">4</div><div class="poder_carta">10</div><div class="nome_carta">Formiga</div></div></div>
-            <div class="slot_carta"><div class="carta" draggable="true"><div class="energia_carta">4</div><div class="poder_carta">6</div><div class="nome_carta">Hulk</div></div></div>
-            <div class="slot_carta"><div class="carta" draggable="true"><div class="energia_carta">4</div><div class="poder_carta">11</div><div class="nome_carta">IA</div></div></div>
+            <div class="slot_carta">
+                <div class="carta" draggable="true">
+                    <div class="energia_carta">4</div>
+                    <div class="poder_carta">7</div>
+                    <div class="nome_carta">Feiticeira</div>
+                </div>
+            </div>
+            <div class="slot_carta">
+                <div class="carta" draggable="true">
+                    <div class="energia_carta">4</div>
+                    <div class="poder_carta">10</div>
+                    <div class="nome_carta">Formiga</div>
+                </div>
+            </div>
+            <div class="slot_carta">
+                <div class="carta" draggable="true">
+                    <div class="energia_carta">4</div>
+                    <div class="poder_carta">6</div>
+                    <div class="nome_carta">Hulk</div>
+                </div>
+            </div>
+            <div class="slot_carta">
+                <div class="carta" draggable="true">
+                    <div class="energia_carta">4</div>
+                    <div class="poder_carta">11</div>
+                    <div class="nome_carta">IA</div>
+                </div>
+            </div>
         </div>
-        <div id="energia">Energia: <span>1</span></div>
+        <div id="energia">Energia: <span>4</span></div>
         <button id="passar">Passar</button>
     </div>
 </main>
